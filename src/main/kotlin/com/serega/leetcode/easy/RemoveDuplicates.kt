@@ -10,5 +10,7 @@ fun main() {
 
     println(intArrayOf(9, 5, 3, 1, 132).mapIndexed { index, value -> index + 1 })
 
+    println(intArrayOf(9, 5, 3, 1, 132).associateBy { k -> k })
+
     println(removeDuplicates(intArrayOf(1, 1, 2, 3, 4, 5, 5, 5, 6, 7)))
 }
